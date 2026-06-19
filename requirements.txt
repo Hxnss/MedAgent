@@ -5,4 +5,3 @@ numpy
 openpyxl
 groq
 joblib
-GROQ_API_KEY= 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
