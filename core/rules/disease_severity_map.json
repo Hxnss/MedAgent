@@ -1,0 +1,125 @@
+{
+  "_comment": "Severity levels: EMERGENCY, URGENT, SEMI-URGENT, NON-URGENT",
+  "_reference": "Based on ESI (Emergency Severity Index) & WHO clinical guidelines",
+
+  "Stroke": {
+    "severity": "EMERGENCY",
+    "rationale": "Time-critical condition. Brain tissue dies every minute without treatment. Golden hour applies.",
+    "action": "Segera ke IGD. Jangan tunggu - waktu adalah otak (time is brain)."
+  },
+  "Dengue Hemorrhagic Fever": {
+    "severity": "EMERGENCY",
+    "rationale": "Risiko syok dengue dan perdarahan internal yang mengancam jiwa.",
+    "action": "Segera ke IGD atau rumah sakit. Perlu pemantauan trombosit dan cairan IV."
+  },
+  "Heart Failure": {
+    "severity": "EMERGENCY",
+    "rationale": "Gagal jantung akut dapat menyebabkan edema paru dan kematian mendadak.",
+    "action": "Segera ke IGD. Jangan biarkan pasien berjalan sendiri."
+  },
+  "Pneumonia": {
+    "severity": "URGENT",
+    "rationale": "Infeksi paru serius, terutama berbahaya pada lansia, anak kecil, dan imunokompromais.",
+    "action": "Ke dokter atau UGD dalam hari yang sama. Butuh antibiotik dan kemungkinan rontgen dada."
+  },
+  "COVID-19": {
+    "severity": "URGENT",
+    "rationale": "Dapat berkembang menjadi ARDS (gagal napas). Risiko tinggi pada lansia dan komorbid.",
+    "action": "Isolasi mandiri, konsultasi dokter segera. Ke IGD jika sesak napas."
+  },
+  "Malaria": {
+    "severity": "URGENT",
+    "rationale": "Malaria falciparum dapat menyebabkan malaria serebral dan kematian dalam 24-48 jam.",
+    "action": "Segera ke dokter atau puskesmas untuk tes darah dan pengobatan antimalarial."
+  },
+  "Leptospirosis": {
+    "severity": "URGENT",
+    "rationale": "Dapat menyebabkan Weil's disease dengan gagal ginjal, hati, dan perdarahan.",
+    "action": "Segera ke dokter. Butuh antibiotik dan pemantauan fungsi organ."
+  },
+  "Tuberculosis": {
+    "severity": "URGENT",
+    "rationale": "Penyakit menular serius yang memerlukan pengobatan jangka panjang (6 bulan).",
+    "action": "Segera ke puskesmas atau poli paru. Program OAT tersedia gratis."
+  },
+  "Typhoid Fever": {
+    "severity": "URGENT",
+    "rationale": "Risiko komplikasi berat: perforasi usus dan perdarahan saluran cerna.",
+    "action": "Ke dokter dalam hari yang sama. Butuh antibiotik dan istirahat total."
+  },
+  "Hepatitis A": {
+    "severity": "URGENT",
+    "rationale": "Dapat menyebabkan gagal hati akut meski jarang. Perlu pemantauan fungsi hati.",
+    "action": "Ke dokter segera. Isolasi, istirahat, hindari alkohol dan obat hepatotoksik."
+  },
+  "Hepatitis B": {
+    "severity": "URGENT",
+    "rationale": "Infeksi kronis dapat menyebabkan sirosis dan karsinoma hepatoseluler.",
+    "action": "Segera ke dokter untuk konfirmasi diagnosis dan pemantauan HBsAg."
+  },
+  "Asthma": {
+    "severity": "URGENT",
+    "rationale": "Serangan asthma berat dapat fatal. Perlu penilaian tingkat keparahan serangan.",
+    "action": "Gunakan inhaler relief. Jika tidak membaik dalam 15 menit, ke IGD."
+  },
+  "Chikungunya": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Jarang fatal, namun nyeri sendi parah dan demam tinggi memerlukan evaluasi.",
+    "action": "Ke dokter dalam 1-2 hari. Terapi suportif: antipiretik dan analgesik."
+  },
+  "Chickenpox": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Umumnya self-limiting, namun komplikasi (pneumonia, ensefalitis) bisa terjadi.",
+    "action": "Isolasi di rumah, ke dokter jika demam tinggi atau lesi menyebar ke mata."
+  },
+  "Hypertension": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Hipertensi kronis; darurat jika TD >180/120 disertai gejala end-organ damage.",
+    "action": "Konsultasi dokter untuk evaluasi dan terapi. Pantau tekanan darah rutin."
+  },
+  "Type 2 Diabetes Mellitus": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Kondisi kronik yang memerlukan manajemen jangka panjang dan kontrol glikemik.",
+    "action": "Ke dokter untuk evaluasi HbA1c dan rencana pengobatan."
+  },
+  "Anemia": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Penyebabnya beragam; anemia berat atau onset mendadak memerlukan evaluasi segera.",
+    "action": "Ke dokter untuk cek darah lengkap. Jika sesak napas parah, ke IGD."
+  },
+  "Gastroenteritis": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Risiko dehidrasi terutama pada anak dan lansia. Umumnya self-limiting.",
+    "action": "Rehidrasi oral agresif (oralit). Ke dokter jika tidak membaik dalam 48 jam."
+  },
+  "Urinary Tract Infection": {
+    "severity": "SEMI-URGENT",
+    "rationale": "UTI atas (pielonefritis) memerlukan penanganan segera. UTI bawah lebih ringan.",
+    "action": "Ke dokter untuk urinalisis dan antibiotik. Jangan tunda jika ada demam tinggi."
+  },
+  "Acute Diarrhea": {
+    "severity": "SEMI-URGENT",
+    "rationale": "Risiko dehidrasi. Berbahaya pada anak <5 tahun dan lansia.",
+    "action": "Oralit segera. Ke dokter jika >3 hari, darah dalam feses, atau tanda dehidrasi berat."
+  },
+  "Influenza": {
+    "severity": "NON-URGENT",
+    "rationale": "Umumnya self-limiting dalam 7-10 hari pada orang sehat.",
+    "action": "Istirahat, banyak minum, antipiretik. Ke dokter jika >39°C atau sesak napas."
+  },
+  "GERD": {
+    "severity": "NON-URGENT",
+    "rationale": "Kondisi kronis yang tidak mengancam jiwa namun mengganggu kualitas hidup.",
+    "action": "Modifikasi gaya hidup, antasida. Konsultasi dokter jika gejala persisten >2 minggu."
+  },
+  "Sinusitis": {
+    "severity": "NON-URGENT",
+    "rationale": "Umumnya viral dan self-limiting. Sinusitis bakteri memerlukan antibiotik.",
+    "action": "Dekongestan, saline nasal. Ke dokter jika >10 hari atau nyeri wajah berat."
+  },
+  "Conjunctivitis": {
+    "severity": "NON-URGENT",
+    "rationale": "Infeksi mata ringan, sangat jarang menyebabkan komplikasi serius.",
+    "action": "Kompres dingin, tetes mata. Ke dokter jika disertai nyeri hebat atau penurunan visus."
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "_comment": "Aturan berbasis gejala langsung dari input user. Diprioritaskan di atas disease map.",
+
+  "EMERGENCY": {
+    "_rationale": "Gejala ini sendiri sudah cukup untuk menentukan EMERGENCY, terlepas dari diagnosis.",
+    "symptoms": [
+      "chest_pain",
+      "decreased_consciousness",
+      "seizures",
+      "slurred_speech",
+      "facial_drooping",
+      "unilateral_weakness",
+      "coughing_blood",
+      "sudden_high_fever"
+    ],
+    "combinations": [
+      {
+        "symptoms": ["shortness_of_breath", "chest_pain"],
+        "rationale": "Kemungkinan serangan jantung atau emboli paru"
+      },
+      {
+        "symptoms": ["shortness_of_breath", "orthopnea"],
+        "rationale": "Kemungkinan gagal jantung akut atau edema paru"
+      },
+      {
+        "symptoms": ["fever", "decreased_consciousness"],
+        "rationale": "Kemungkinan meningitis atau malaria serebral"
+      },
+      {
+        "symptoms": ["rapid_breathing", "cold_feet"],
+        "rationale": "Tanda syok - kondisi darurat"
+      }
+    ]
+  },
+
+  "URGENT": {
+    "_rationale": "Gejala yang memerlukan evaluasi medis dalam waktu beberapa jam.",
+    "symptoms": [
+      "shortness_of_breath",
+      "rapid_breathing",
+      "palpitations",
+      "blood_in_urine",
+      "bloody_stool",
+      "yellow_eyes",
+      "yellowish_skin",
+      "orthopnea",
+      "pain_behind_eyes",
+      "blurred_vision",
+      "cold_feet"
+    ],
+    "combinations": [
+      {
+        "symptoms": ["fever", "joint_pain", "skin_rash"],
+        "rationale": "Trias dengue atau chikungunya"
+      },
+      {
+        "symptoms": ["fever", "vomiting", "abdominal_pain"],
+        "rationale": "Kemungkinan infeksi sistemik atau appendisitis"
+      },
+      {
+        "symptoms": ["weight_loss", "night_sweats", "cough"],
+        "rationale": "Trias TB klasik"
+      },
+      {
+        "symptoms": ["dizziness", "weakness", "palpitations"],
+        "rationale": "Kemungkinan anemia berat atau gangguan kardiovaskular"
+      }
+    ]
+  },
+
+  "SEMI-URGENT": {
+    "_rationale": "Gejala yang perlu evaluasi dokter dalam 24-48 jam, tidak mendesak.",
+    "symptoms": [
+      "fever",
+      "vomiting",
+      "diarrhea",
+      "abdominal_pain",
+      "lower_back_pain",
+      "swelling",
+      "swollen_feet",
+      "dark_urine",
+      "cloudy_urine",
+      "red_spots_on_skin",
+      "skin_rash",
+      "vertigo",
+      "tinnitus",
+      "difficulty_swallowing",
+      "back_pain",
+      "night_sweats",
+      "weight_loss",
+      "excessive_thirst",
+      "frequent_urination",
+      "pale_stool"
+    ]
+  },
+
+  "NON-URGENT": {
+    "_rationale": "Gejala ringan yang bisa ditangani mandiri atau konsultasi dokter dalam beberapa hari.",
+    "symptoms": [
+      "headache",
+      "nausea",
+      "chills",
+      "cough",
+      "productive_cough",
+      "sore_throat",
+      "nasal_congestion",
+      "runny_nose",
+      "sneezing",
+      "loss_of_appetite",
+      "weakness",
+      "fatigue",
+      "joint_pain",
+      "muscle_pain",
+      "dizziness",
+      "red_eyes",
+      "eye_discharge",
+      "bloating",
+      "excessive_belching",
+      "heartburn",
+      "dry_lips",
+      "dry_skin",
+      "itching"
+    ]
+  }
+}
